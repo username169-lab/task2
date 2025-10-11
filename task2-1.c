@@ -9,7 +9,7 @@ int main(void) {
 	scanf("%lf", &eps);
 	printf("Enter x:\n");
 	while(scanf("%lf", &x) == 1)
-		if(x <= 0)
+		if(x < 0)
 			printf("Can't compute!\n");
        		else
 			printf("sqrt(x) = %.10g\n", mySqrt(x, eps));

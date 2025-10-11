@@ -19,7 +19,7 @@ int main(void) {
 		pow--;
 	}
 	sum *= x;
-	sum = x > 0 ? : -sum;
+	sum = x > 0 ? sum : -sum;
 	printf("Polynomial = %.10g\n", res);
 	printf("Derivative = %.10g\n", der);
 	printf("Integral = %.10g\n", sum);

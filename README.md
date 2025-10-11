@@ -2,7 +2,7 @@
 
 ## task2-1.c
 double mySqrt(double x, double eps) returns a square root of a positive number x with precision eps.
-The computation does not proceed if x is less or equal to zero.
+The computation does not proceed if x is less than zero.
 
 ## task2-2.c
 Calculation of the values (polynomial, derivative, integral) is done simultaneously using recurrent formulas.

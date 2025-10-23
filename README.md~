@@ -19,7 +19,7 @@ double str2double(char str[]) converts string str[] of char into double.
 Using list structure to store entered data.
 MAXLEN is the maximum length of a word.
 void add_front(list *lp, elemtype x) - adds the word in the beginning of a list.
-void delete_elem(list *lp, elemtype x) - deletes all words equal to x.
+void delete_like_last(list *lp, elemtype x) - deletes all elements equal to the last word in the list.
 void print(list l) - prints the list.
 void destroy(list *lp) - frees memory allocated to the list.
 

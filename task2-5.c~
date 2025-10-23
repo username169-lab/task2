@@ -55,7 +55,7 @@ int main(void) {
 		add_front(&l, tmp_buf);
 		i = 0;
 	}
-	delete_elem(&(l -> next), l -> elem);
+	delete_elem(&l, l -> elem);
 	delete_elem(&l, max_buf);
 	printf("Transformed sequence:\n");
 	print(l);
